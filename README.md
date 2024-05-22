@@ -1,3 +1,13 @@
-# FAQ
+# Answers to Frequently Asked Questions
 
-Consent forms, frequently asked questions, press releases, the original project proposal, and other descriptive information about the Speech Accessibility Project
+Welcome to the Speech Accessibility Project!
+
+The goal of the Speech Accessibility Project is to inspire significant and large improvements in accessibility.  One of the ways in which we pursue that goal is by collecting and annotating speech data, and by making it available to any organization who has an idea that might improve accessibility (if you are such an organization, please see https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project to learn how you can get a copy of the corpus).  Another way in which we pursue that goal is by providing our own data collection and annotation protocols as an example, in the hope that other organizations might pursue similar goals.  All of these documents are released under an MIT open source software license (see LICENSE.txt).
+
+* The repository https://github.com/speechaccessibility/PromptsAnnotationGuidelines contains our prompts and annotation guidelines
+* The document https://github.com/speechaccessibility/FAQ/blob/main/Speech%20Accessibility%20Project%20Proposal.pdf is our original project proposal, redacted to remove the names of some partner organizations.
+* The document https://github.com/speechaccessibility/FAQ/blob/main/23183_Hasegawa-Johnson_CurrentlyApprovedRedacted_04162024.pdf is our IRB-approved human subjects research protocol, redacted to remove the names and contact information of individual team members.
+* The directory https://github.com/speechaccessibility/FAQ/tree/main/ConsentForms contains our consent forms.  These are also included in the IRB protocol, so this directory is redundant.
+* The directory https://github.com/speechaccessibility/FAQ/tree/main/PressReleases contains press releases.
+
+You might also be interested in trying out the protocol yourself, even if you don't have a disability that affects speech.  You can do by logging in to our software test server, https://saa-test.beckman.illinois.edu/.  Note that this is a software test server; it is not guaranteed to be performant, because this is where we test interface changes before pushing them to production.  If you want to jump in to the middle of the protocol (the recording phase, after the consent process is complete), you can click "Continue Recording Here," then log in as username:"asha@test.org", password:"123Abc123!".  At the time of this writing, pseudo-user asha@test.org is still in block 1 (out of 10); if she gets through the rest of the protocol and has no more recordings to do, then we will create a new pseudo-user so you can test the protocol.
